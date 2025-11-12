@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Page / Mandatory</title>
+    <link rel="stylesheet" href="/SearchPage/css/notnotmain.css">
+</head>
+<body>
+    <div class="container">
+            <!-- Navigation -->
+            <nav class="navigation fixed">
+                <div class="menu-container">
+                    <ul>
+                        <li><a href="/HomePage/index.html">HOME</a></li>
+                        <li><a href="/SecondPage/details.html">RECIPES</a></li>
+                        <li><a href="/4thPage/Lando.html">TRENDING</a></li>
+                        <li><a href="/SearchPage/search.html">ABOUT</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Header/hero area -->
+            <header class="hero-searchpage">
+                <div class="hero-container">
+                    <!-- <div class="hero-text">
+                        <p>#1 Bender's most shiny recipe</p>
+                        <h1>Boozy brown <br><span>Lentil soup</span> </h1>
+                        <p>40% healthy</p>
+                    </div> -->
+
+                    <div class="search-box-searchpage">
+                        <div class="fullsearch-headline">
+                            Full Search
+                        </div>
+
+                        <input type="search" name="" id="" class="search-input" placeholder="Search">
+                        <p>Let's go already!</p>
+                    </div>
+
+                    <div class="filter-category-checkbox">
+                        <h3>Search filter : category</h3>
+                        <label>
+                            <input type="radio" name="category" id="chicken" value="chicken"> 
+                            Chicken
+                        </label>
+                        <label>
+                            <input type="radio" name="category" id="seafood" value="seafood"> 
+                            Seafood
+                        </label>
+                        <label>
+                            <input type="radio" name="category" id="meats" value="meats"> 
+                            Meats
+                        </label>
+                        <label>
+                            <input type="radio" name="category" id="veg" value="veg"> 
+                            Veg
+                        </label>
+                        <label>
+                            <input type="radio" name="category" id="dessert" value="dessert"> 
+                            Desserts
+                        </label>
+                        <label>
+                            <input type="radio" name="category" id="misc" value="misc"> 
+                            Misc
+                        </label>
+                        <label>
+                            <input type="radio" name="category" id="pasta" value="pasta"> 
+                            Pasta
+                        </label>
+                    </div>
+                </div>
+            </header>
+
+        
+            <div class="serp">
+                <div class="serp-container">
+                    <!-- <h2>Search Results</h2> -->
+
+                    <!-- each result based on a search start-->
+                    <div class="serp-item">
+                        <h3 class="category-label">Category:  <span data-category="chicken"> Chicken</span></h3>
+                        <h2>search result one</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis reprehenderit voluptatem distinctio fuga eum necessitatibus ipsum nemo suscipit a, vel laboriosam aut pariatur ullam facere? Eius quisquam hic tempore! Ipsam maxime libero recusandae impedit facilis placeat. Nemo, fuga quisquam.</p>
+                    </div>
+                    <!-- each result based on a search end-->
+
+                    <div class="serp-item">
+                        <h3 class="category-label">Category:  <span data-category="seafood"> Seafood</span></h3>
+                        <h2>search result two</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis reprehenderit voluptatem distinctio fuga eum necessitatibus ipsum nemo suscipit a, vel laboriosam aut pariatur ullam facere? Eius quisquam hic tempore! Ipsam maxime libero recusandae impedit facilis placeat. Nemo, fuga quisquam.</p>
+                    </div>
+                    <!-- each result based on a search end-->
+
+                    <div class="serp-item">
+                        <h3 class="category-label">Category:  <span data-category="dessert"> Dessert</span></h3>
+                        <h2>search result three</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis reprehenderit voluptatem distinctio fuga eum necessitatibus ipsum nemo suscipit a, vel laboriosam aut pariatur ullam facere? Eius quisquam hic tempore! Ipsam maxime libero recusandae impedit facilis placeat. Nemo, fuga quisquam.</p>
+                    </div>
+                    <!-- each result based on a search end-->
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+            </div>
+                <!-- footer  -->
+            <footer class="footer">
+                <div class="footer-container">
+                    <div class="footer-left">
+                        <div class="social">
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M1 5.8c0-1.68 0-2.52.327-3.16a3.02 3.02 0 0 1 1.31-1.31c.642-.327 1.48-.327 3.16-.327h12.4c1.68 0 2.52 0 3.16.327a3.02 3.02 0 0 1 1.31 1.31c.327.642.327 1.48.327 3.16v12.4c0 1.68 0 2.52-.327 3.16a3 3 0 0 1-1.31 1.31c-.642.327-1.48.327-3.16.327h-12.4c-1.68 0-2.52 0-3.16-.327a3 3 0 0 1-1.31-1.31C1 20.718 1 19.88 1 18.2zM5.8 2h12.4c.857 0 1.44 0 1.89.038c.438.035.663.1.819.18c.376.192.682.498.874.874c.08.156.145.38.18.819c.037.45.038 1.03.038 1.89v12.4c0 .857-.001 1.44-.038 1.89c-.036.438-.101.663-.18.819a2 2 0 0 1-.874.874c-.156.08-.381.145-.819.18c-.45.036-1.03.037-1.89.037h-2.78v-8.29h2.33l.366-2.56h-2.69v-1.1q0-.28.037-.507c.107-.643.459-.96 1.2-.96h1.48v-2.45l-.016-.003c-.266-.036-.813-.11-1.83-.11c-2.17 0-3.44 1.14-3.44 3.75v1.38h-2.56v2.56h2.56v8.29h-7.05c-.857 0-1.44 0-1.89-.038c-.438-.035-.663-.1-.819-.18a2 2 0 0 1-.874-.874c-.08-.156-.145-.38-.18-.819c-.037-.45-.037-1.03-.037-1.89V5.8c0-.857 0-1.44.037-1.89c.036-.438.101-.663.18-.819c.192-.376.498-.682.874-.874c.156-.08.381-.145.82-.18c.45-.036 1.03-.037 1.89-.037z" clip-rule="evenodd"/></svg>
+                                <a href="">Youtube</a>
+                            </li>
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M1 5.8c0-1.68 0-2.52.327-3.16a3.02 3.02 0 0 1 1.31-1.31c.642-.327 1.48-.327 3.16-.327h12.4c1.68 0 2.52 0 3.16.327a3.02 3.02 0 0 1 1.31 1.31c.327.642.327 1.48.327 3.16v12.4c0 1.68 0 2.52-.327 3.16a3 3 0 0 1-1.31 1.31c-.642.327-1.48.327-3.16.327h-12.4c-1.68 0-2.52 0-3.16-.327a3 3 0 0 1-1.31-1.31C1 20.718 1 19.88 1 18.2zM5.8 2h12.4c.857 0 1.44 0 1.89.038c.438.035.663.1.819.18c.376.192.682.498.874.874c.08.156.145.38.18.819c.037.45.038 1.03.038 1.89v12.4c0 .857-.001 1.44-.038 1.89c-.036.438-.101.663-.18.819a2 2 0 0 1-.874.874c-.156.08-.381.145-.819.18c-.45.036-1.03.037-1.89.037h-2.78v-8.29h2.33l.366-2.56h-2.69v-1.1q0-.28.037-.507c.107-.643.459-.96 1.2-.96h1.48v-2.45l-.016-.003c-.266-.036-.813-.11-1.83-.11c-2.17 0-3.44 1.14-3.44 3.75v1.38h-2.56v2.56h2.56v8.29h-7.05c-.857 0-1.44 0-1.89-.038c-.438-.035-.663-.1-.819-.18a2 2 0 0 1-.874-.874c-.08-.156-.145-.38-.18-.819c-.037-.45-.037-1.03-.037-1.89V5.8c0-.857 0-1.44.037-1.89c.036-.438.101-.663.18-.819c.192-.376.498-.682.874-.874c.156-.08.381-.145.82-.18c.45-.036 1.03-.037 1.89-.037z" clip-rule="evenodd"/></svg>
+                                <a href="">Instagram</a>
+                            </li>
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M1 5.8c0-1.68 0-2.52.327-3.16a3.02 3.02 0 0 1 1.31-1.31c.642-.327 1.48-.327 3.16-.327h12.4c1.68 0 2.52 0 3.16.327a3.02 3.02 0 0 1 1.31 1.31c.327.642.327 1.48.327 3.16v12.4c0 1.68 0 2.52-.327 3.16a3 3 0 0 1-1.31 1.31c-.642.327-1.48.327-3.16.327h-12.4c-1.68 0-2.52 0-3.16-.327a3 3 0 0 1-1.31-1.31C1 20.718 1 19.88 1 18.2zM5.8 2h12.4c.857 0 1.44 0 1.89.038c.438.035.663.1.819.18c.376.192.682.498.874.874c.08.156.145.38.18.819c.037.45.038 1.03.038 1.89v12.4c0 .857-.001 1.44-.038 1.89c-.036.438-.101.663-.18.819a2 2 0 0 1-.874.874c-.156.08-.381.145-.819.18c-.45.036-1.03.037-1.89.037h-2.78v-8.29h2.33l.366-2.56h-2.69v-1.1q0-.28.037-.507c.107-.643.459-.96 1.2-.96h1.48v-2.45l-.016-.003c-.266-.036-.813-.11-1.83-.11c-2.17 0-3.44 1.14-3.44 3.75v1.38h-2.56v2.56h2.56v8.29h-7.05c-.857 0-1.44 0-1.89-.038c-.438-.035-.663-.1-.819-.18a2 2 0 0 1-.874-.874c-.08-.156-.145-.38-.18-.819c-.037-.45-.037-1.03-.037-1.89V5.8c0-.857 0-1.44.037-1.89c.036-.438.101-.663.18-.819c.192-.376.498-.682.874-.874c.156-.08.381-.145.82-.18c.45-.036 1.03-.037 1.89-.037z" clip-rule="evenodd"/></svg>
+                                <a href="">Facebook</a>
+                            </li>
+                        </div>
+                    </div>
+
+                    <div class="footer-center">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Recipe</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                    </div>
+
+                    <div class="footer-line"></div>
+
+                    <div class="footer-right">
+                    <div class="spotify-links">
+                        <a href="https://open.spotify.com/track/4gRA0i5sxx3jAhHaVjPnUN?si=aaba07b09223416c">https://open.spotify.com/track/4gRA0i5sxx3jAhHaVjPnUN?si=aaba07b09223416c</a><br>
+                        <a href="https://open.spotify.com/album/6xuu2z00jxRPZei4J9neK"> https://open.spotify.com/album/6Xuu2z00jxRPZei4IJ9neK</a>
+                    </div>
+                    <div class="etsy">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M17.253 19.917A9.5 9.5 0 0 0 9.89 2.736m7.364 17.18V17m0 2.917H20.5M6.722 4.1a9.5 9.5 0 0 0 7.389 17.165M6.722 4.1V7m0-2.9H3.5"/><path d="M12 16a3.5 3.5 0 0 0 3.5-3.5C15.5 10 12 7 12 7s-3.5 3-3.5 5.5A3.5 3.5 0 0 0 12 16"/></g></svg>
+                        <p>Etsy is powered by 100% <br> renewable electricity.</p>
+                    </div>
+                </div>
+                </div>
+                </footer>
+    </div>
+</body>
+</html>
