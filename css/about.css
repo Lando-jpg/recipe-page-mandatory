@@ -485,8 +485,10 @@ p[data-category="dessert"], span[data-category="dessert"] {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
 }
+
+
 
 .navigation .menu-container ul {
   display: flex;
@@ -507,6 +509,9 @@ p[data-category="dessert"], span[data-category="dessert"] {
     padding: 0 15px;
     align-items: flex-start; 
   }
+
+
+
 .todays_recipes_content {
   display: flex;
   flex-direction: column;
